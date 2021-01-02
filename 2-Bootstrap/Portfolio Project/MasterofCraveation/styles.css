@@ -1,0 +1,151 @@
+body {
+    background-image: url(img/Body\ bg.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-family: 'Kufam', cursive;
+    color: rgb(72, 255, 0);
+    font-size: 200 px;
+    text-shadow: 3px 3px 3px black;
+}
+
+.navbar-brand {
+    max-width: 250px;
+    font-family: 'Kufam', cursive;
+    color: rgb(72, 255, 0);
+    font-size: 30px;
+    margin: 0px;
+    text-shadow: 3px 3px 3px black;
+}
+
+.navbar-toggler-icon { 
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(72, 255, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
+button.navbar-toggler.navbar-toggler {
+    border-color: rgb(72, 255, 0);;
+}
+
+.navbar {
+    background-image: url(img/Navbar\ bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Kufam', cursive;
+    text-shadow: 3px 3px 3px black;
+}
+
+.nav-link {
+    color: rgb(72, 255, 0);
+    font-size: 1.5em !important;
+}
+
+.carousel-inner img{
+    width: 40%;
+    margin: auto; 
+}
+
+.card-header, .cardHeader {
+    width: 100%;
+    font-family: 'Kufam', cursive;
+    color: rgb(72, 255, 0);
+    font-size: 200 px;
+    text-shadow: 3px 3px 3px black;
+    background-color: rgb(75, 0, 105);
+}
+
+.cardHeader {
+    background-color: purple !important;
+}
+
+.bgAbout {
+    background-image: url(img/Accordian\ Title\ Card/AccordianTitleCard01.webp) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bgMenu {
+    background-image: url(img/Accordian\ Title\ Card/AccordianTitleCard02.jpg) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bgShop {
+    background-image: url(img/Accordian\ Title\ Card/AccordianTitleCard03.jpg) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.acAbout {
+    background-image: url(img/Accordian\ Title\ Card/AccordianTitleCard01.webp)
+}
+
+.acButton {
+    width: 100%;
+    font-family: 'Kufam', cursive;
+    color: rgb(72, 255, 0);
+    font-size: 200 px;
+    text-shadow: 3px 3px 3px black;
+}
+
+.card-text {
+    font-family: "Poppins", sans-serif;
+    color: rgb(72, 255, 0);
+    font-size: 30px;
+}
+
+.cardMenu {
+    font-family: "Poppins", sans-serif;
+    color: rgb(72, 255, 0);
+    font-size: 30px;
+    margin-top: 55%;
+    background-color: purple;
+}
+
+.menu {
+    padding: 60px;
+    background-color: rgb(75, 0, 105);
+}
+
+.card {
+    background-image: url(img/Navbar\ bg.jpg);;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1rem;
+}
+
+.contact-footer {
+    padding: 40px;
+    background-color: black;
+}
+
+.social a {
+    font-size: 2em;
+    margin: 0.3rem;
+}
+
+.footer {
+    padding: 60px;
+}
+
+.contact-footer h5, p {
+    color: rgb(72, 255, 0);
+}
+
+.copyRight {
+    padding-top: 80px;
+    background-color: rgb(75, 0, 105);
+}
+
+hr.light {
+    border-top: 1px solid rgb(255, 0, 0);
+    width: 75%;
+}
